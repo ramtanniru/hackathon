@@ -87,25 +87,28 @@ const symptomsPage = () => {
   };
 
   return (
-    <div className="grad2 py-5 h-100">
-      <div className="rounded-3 shadow col-10 mx-auto ">
-        <div className="mx-auto d-flex flex-column justify-content-center p-5 glass py-5">
-          <h1 className="">Symptom Checker</h1>
-          <p>
-            Select the symptoms you are experiencing and click the "Generate Content" button to get a possible diagnosis.
-          </p>
-          <ul className="d-flex flex-wrap gap-3 col-8 mx-auto">
-            {symptoms.map((symptom) => (
-              <li key={symptom} className="d-flex flex-row align-items-center  justify-content-center gap-2">
-                <input type="checkbox" className="form-check m-0" id={symptom} onChange={() => toggleSymptom(symptom)} />
-                <label className="form-label m-0" htmlFor={symptom}>{symptom}</label>
-              </li>
-            ))}
-          </ul>
-          <button className="btn btn-primary col-8 mx-auto" onClick={generateContent}>Generate Content</button>
-        </div>
-        <div className="bg-light mx-auto p-5">{result}</div>
-      </div>
+    // <div className="py-5 mx-10 md:py-24">
+    //   <div className="">
+    //     <div className="">
+    //       <h1 className="">Symptom Checker</h1>
+    //       <p>
+    //         Select the symptoms you are experiencing and click the "Generate Content" button to get a possible diagnosis.
+    //       </p>
+    //       <ul className="">
+    //         {symptoms.map((symptom) => (
+    //           <li key={symptom} className="flex flex-row items-center gap-2">
+    //             <input type="checkbox" className="" id={symptom} onChange={() => toggleSymptom(symptom)} />
+    //             <label className="" htmlFor={symptom}>{symptom}</label>
+    //           </li>
+    //         ))}
+    //       </ul>
+    //       <button className="" onClick={generateContent}>Generate Content</button>
+    //     </div>
+    //     <div className="">{result}</div>
+    //   </div>
+    // </div>
+    <div className="">
+      <h1>Symptom analyser</h1>
     </div>
   );
 };
