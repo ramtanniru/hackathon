@@ -63,7 +63,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Clean User Interface
+                  Symptoms analyser
                 </button>
               </div>
             </div>
@@ -82,7 +82,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Essential Business Pages
+                  Diet planner
                 </button>
               </div>
             </div>
@@ -101,7 +101,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Fully Functional Integrations
+                  Doctor consultation
                 </button>
               </div>
             </div>

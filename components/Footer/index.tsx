@@ -106,7 +106,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        Profile
                       </a>
                     </li>
                     <li>
@@ -114,15 +114,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Pricing
+                        Chatbot
                       </a>
                     </li>
                   </ul>
@@ -147,7 +139,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Support
+                    Features
                   </h4>
 
                   <ul>
@@ -156,7 +148,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Company
+                        Symptom analysis
                       </a>
                     </li>
                     <li>
@@ -164,7 +156,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
+                        Diet plan
                       </a>
                     </li>
                     <li>
@@ -172,15 +164,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Our Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Contact Us
+                        Consultation
                       </a>
                     </li>
                   </ul>
@@ -207,6 +191,16 @@ const Footer = () => {
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
                     Newsletter
                   </h4>
+                  <ul>
+                  <li>
+                      <a
+                        href="#"
+                        className="mb-3 inline-block hover:text-primary"
+                      >
+                        Contact Us
+                      </a>
+                    </li>
+                  </ul>
                   <p className="mb-4 w-[90%]">
                     Subscribe to receive future updates
                   </p>
@@ -272,7 +266,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-8">
+              {/* <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
                     English
@@ -288,7 +282,9 @@ const Footer = () => {
                     Support
                   </a>
                 </li>
-              </ul>
+                
+              </ul> */}
+              <p>MediBot pvt ltd</p>
             </motion.div>
 
             <motion.div
@@ -358,7 +354,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://twitter.com/ramtanniru2" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -382,7 +378,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.linkedin.com/in/ram-tanniru-12b35b222/" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -406,7 +402,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.behance.net/ramtanniru" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
