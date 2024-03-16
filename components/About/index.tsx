@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
-      <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      {/* <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
@@ -105,7 +105,7 @@ const About = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- ===== About End ===== --> */}
 
       {/* <!-- ===== About Two Start ===== --> */}
@@ -131,12 +131,12 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
+              Get your preliminary health analysis
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential {"   "}
+              Packed with All Essential {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Integrations
+                Statistics
                 </span>
               </h2>
               <p>

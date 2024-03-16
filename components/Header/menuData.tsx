@@ -15,15 +15,9 @@ const menuData: Menu[] = [
   // },
   {
     id: 2.1,
-    title: "Chat Bot",
+    title: "Chatbot",
     newTab: false,
     path: "/blog",
-  },
-  {
-    id: 2.3,
-    title: "Docs",
-    newTab: false,
-    path: "/docs",
   },
   {
     id: 3,
@@ -32,54 +26,23 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "Symptom analysis",
         newTab: false,
-        path: "/blog",
+        path: "/symptoms",
       },
       {
-        id: 34,
-        title: "Sign In",
+        id: 32,
+        title: "Diet planner",
         newTab: false,
-        path: "/auth/signin",
+        path: "/diet",
       },
       {
-        id: 35,
-        title: "Sign Up",
-        newTab: false,
-        path: "/auth/signup",
-      },
-      {
-        id: 35,
-        title: "Docs",
+        id: 33,
+        title: "Consult a doctor",
         newTab: false,
         path: "/docs",
       },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
-      {
-        id: 36,
-        title: "404",
-        newTab: false,
-        path: "/error",
-      },
     ],
-  },
-
-  {
-    id: 4,
-    title: "Symptoms",
-    newTab: false,
-    path: "/support",
-  },
-  {
-    id: 5,
-    title: "dite plan",
-    newTab: false,
-    path: "/symptoms",
   },
 ];
 

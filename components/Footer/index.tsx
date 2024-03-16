@@ -49,14 +49,23 @@ const Footer = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
 
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
+                {/* <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
                 <a
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  ramtanniru2@gmail.com
+                </a> */}
+                <p className="text-itemtitle font-medium text-black dark:text-white">
+                  Contact
+                </p>
+                <a
+                  href="#"
+                  className="mb-1.5 text-sectiontitle"
+                >
+                  ramtanniru2@gmail.com
                 </a>
               </motion.div>
 
@@ -301,7 +310,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Developed by Ram and Satya
               </p>
             </motion.div>
 

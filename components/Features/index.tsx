@@ -13,11 +13,10 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "MEDIBOT FEATURES",
+              subtitle: "Core Features of MediBot",
+              description: `Your all-in-one healthcare solution with AI chatbot support,
+              doctor consultations, diet planning, symptom analysis, and secure data privacy via facial recognition.`,
             }}
           />
           {/* <!-- Section Title End --> */}
