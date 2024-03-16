@@ -7,15 +7,15 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/",
   },
-  {
-    id: 2,
-    title: "Features",
-    newTab: false,
-    path: "/#features",
-  },
+  // {
+  //   id: 2,
+  //   title: "Features",
+  //   newTab: false,
+  //   path: "/#features",
+  // },
   {
     id: 2.1,
-    title: "Blog",
+    title: "Chat Bot",
     newTab: false,
     path: "/blog",
   },
@@ -27,7 +27,7 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Pages",
+    title: "Features",
     newTab: false,
     submenu: [
       {
@@ -71,9 +71,15 @@ const menuData: Menu[] = [
 
   {
     id: 4,
-    title: "Support",
+    title: "Symptoms",
     newTab: false,
     path: "/support",
+  },
+  {
+    id: 5,
+    title: "dite plan",
+    newTab: false,
+    path: "/symptoms",
   },
 ];
 
