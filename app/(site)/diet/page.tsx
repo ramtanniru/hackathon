@@ -106,43 +106,43 @@ const API_KEY = "AIzaSyBA5rtNNVSNures_Gwpe3ZBq4Bq44O6Mbw";
   };
 
   return (
-    <div className="px-5 grad2">
-        <div className="d-flex flex-row">
-            <div className="d-flex flex-wrap gap-2 col-5 text-start p-3 shadow my-4" style={{background:'#ffffff',}}>
-              <h1>Personalized Diet Plan</h1>
-              <p>
-                Enter your personal information and we will generate a personalized diet plan
-                tailored to your needs and goals.
-              </p>
-            
-              <form onSubmit={handleSubmit} className="d-flex flex-column gap-4">
-                <div>
-                    <label htmlFor="age" className="form-label">Age:</label>
+    <div className="pt-20 pb-15 md:pt-40 md:pb-30 mx-10 md:mx-20 flex flex-row gap-7">
+        <div className="flex flex-col w-3/4">
+            <div className="flex flex-col gap-5">
+              <div className="flex flex-col gap-3">
+                <h1 className="text-3xl font-bold text-black dark:text-white ">Personalized Diet Plan</h1>
+                <p>
+                  Enter your personal information and we will generate a personalized diet plan
+                  tailored to your needs and goals.
+                </p>
+              </div>
+              <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+                <div className="flex flex-wrap gap-5">
+                <div className="flex flex-row items-center gap-2">
+                    <label htmlFor="age" className="">Age:</label>
                     <input
                       type="number"
                       name="age"
                       value={formData.age}
                       onChange={handleChange}
-                      className="form-control"
+                      className="appearance-none w-fit border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                     />
                 </div>
-            
-                <div className="d-flex flex-row justify-content-between ">
-                    <div>
+                    <div className="flex flex-row items-center gap-2">
                         <label htmlFor="gender" className=" form-label ">Gender:</label>
-                        <select name="gender" value={formData.gender} className=" form-select " onChange={handleChange}>
-                          <option value="male" className=" form-control ">Male</option>
-                          <option value="female" className=" form-control ">Female</option>
+                        <select name="gender" value={formData.gender} className="appearance-none w-fit border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500" onChange={handleChange}>
+                          <option value="male" className="">Male</option>
+                          <option value="female" className="">Female</option>
                         </select>
                     </div>
                     
-                    <div>
-                        <label htmlFor="activity-level" className="form-label">Activity Level:</label>
+                    <div className="flex flex-row items-center gap-2">
+                        <label htmlFor="activity-level" className="">Activity Level:</label>
                         <select
                           name="activityLevel"
                           value={formData.activityLevel}
                           onChange={handleChange}
-                          className="form-select"
+                          className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                         >
                           <option value="sedentary">Sedentary</option>
                           <option value="lightly-active">Lightly Active</option>
@@ -151,83 +151,75 @@ const API_KEY = "AIzaSyBA5rtNNVSNures_Gwpe3ZBq4Bq44O6Mbw";
                           <option value="extremely-active">Extremely Active</option>
                         </select>
                     </div>
-                </div>
             
-                <div className="d-flex flex-row justify-content-between ">
-                    <div>
-                        <label htmlFor="weight" className="form-label">Weight (lbs):</label>
+                    <div className="flex flex-row items-center gap-2">
+                        <label htmlFor="weight" className="">Weight (lbs):</label>
                         <input
                           type="number"
                           name="weight"
                           value={formData.weight}
                           onChange={handleChange}
-                          className="form-control"
+                          className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                         />
                     </div>
                     
-                    <div>
+                    <div className="flex flex-row items-center gap-2">
                         <label htmlFor="height" className="form-label">Height (inches):</label>
                         <input
                           type="number"
                           name="height"
                           value={formData.height}
                           onChange={handleChange}
-                          className="form-control"
+                          className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                         />
                     </div>
-                </div>
-            
-                <div className=" d-flex flex-row justify-content-between ">
-                    <div>
+                    <div className="flex flex-row items-center gap-2">
                         <label htmlFor="goal" className="form-label">Goal:</label>
-                        <select name="goal" value={formData.goal} onChange={handleChange} className="form-control">
+                        <select name="goal" value={formData.goal} onChange={handleChange} className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500">
                           <option value="lose-weight">Lose Weight</option>
                           <option value="gain-weight">Gain Weight</option>
                           <option value="maintain-weight">Maintain Weight</option>
                         </select>
                     </div>
                     
-                    <div>
-                        <label htmlFor="allergies" className="form-label">Allergies (comma-separated):</label>
+                    <div className="flex flex-row items-center gap-2">
+                        <label htmlFor="allergies" className="">Allergies (comma-separated):</label>
                         <input
                           type="text"
                           name="allergies"
                           value={formData.allergies}
                           onChange={handleChange}
-                          className="form-control"
+                          className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                         />
                     </div>
-                </div>
-            
-                <div className=" d-flex flex-row justify-content-between gap-4">
-                    <div>
+                    <div className="flex flex-row items-center gap-2">
                         <label htmlFor="liked-food" className="form-label">Liked Foods:</label>
                         <input
                           type="text"
                           name="likedFood"
                           value={formData.likedFood}
                           onChange={handleChange}
-                          className=" form-control "
+                          className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                         />
                     </div>
                     
-                    <div>
-                        <label htmlFor="disliked-food" className=" form-label ">Disliked Foods:</label>
+                    <div className="flex flex-row items-center gap-2">
+                        <label htmlFor="disliked-food" className="">Disliked Foods:</label>
                         <input
                           type="text"
                           name="dislikedFood"
                           value={formData.dislikedFood}
                           onChange={handleChange}
-                          className=" form-control "
+                          className="appearance-none border border-slate-700 rounded-md py-2 px-4 text-gray-700 dark:text-white leading-tight focus:outline-none focus:border-blue-500"
                         />
                     </div>
-                </div>
+                  </div>
             
-                <button type="submit" className=" btn btn-success ">Generate Diet Plan</button>
+                <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-fit">Generate Diet Plan</button>
               </form>
             </div>
-            <div className="col-7 px-5 py-3 my-4" style={{background:'#F5F7FA'}}>{dietPlan}</div>
         </div>
+        <div className="bg-[#1c2136] border-slate-700 border rounded-md w-full" >{dietPlan}</div>
     </div>
   );
 };

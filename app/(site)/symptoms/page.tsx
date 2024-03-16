@@ -4,31 +4,31 @@ import React, { useState } from "react";
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
 const MODEL_NAME = "gemini-pro";
-const API_KEY = "AIzaSyBA5rtNNVSNures_Gwpe3ZBq4Bq44O6Mbw";
+const API_KEY = "AIzaSyBu1qQZMSQpxb4bK2Dih1MVLs5Og_Ooi1U";
 
 const symptoms = [
-  "headache",
-  "fever",
-  "cough",
-  "sore throat",
-  "runny nose",
-  "nausea",
-  "vomiting",
-  "diarrhea",
-  "abdominal pain",
-  "muscle aches",
-  "joint pain",
-  "fatigue",
-  "rash",
-  "itching",
-  "swelling",
-  "redness",
-  "pain",
-  "difficulty breathing",
-  "chest pain",
-  "confusion",
-  "seizures",
-  "loss of consciousness",
+  "Headache",
+  "Fever",
+  "Cough",
+  "Sore throat",
+  "Runny nose",
+  "Nausea",
+  "Vomiting",
+  "Diarrhea",
+  "Abdominal pain",
+  "Muscle aches",
+  "Joint pain",
+  "Fatigue",
+  "Rash",
+  "Itching",
+  "Swelling",
+  "Redness",
+  "Pain",
+  "Difficulty breathing",
+  "Chest pain",
+  "Confusion",
+  "Seizures",
+  "Loss of consciousness",
 ];
 
 const symptomsPage = () => {
@@ -87,28 +87,28 @@ const symptomsPage = () => {
   };
 
   return (
-    // <div className="py-5 mx-10 md:py-24">
-    //   <div className="">
-    //     <div className="">
-    //       <h1 className="">Symptom Checker</h1>
-    //       <p>
-    //         Select the symptoms you are experiencing and click the "Generate Content" button to get a possible diagnosis.
-    //       </p>
-    //       <ul className="">
-    //         {symptoms.map((symptom) => (
-    //           <li key={symptom} className="flex flex-row items-center gap-2">
-    //             <input type="checkbox" className="" id={symptom} onChange={() => toggleSymptom(symptom)} />
-    //             <label className="" htmlFor={symptom}>{symptom}</label>
-    //           </li>
-    //         ))}
-    //       </ul>
-    //       <button className="" onClick={generateContent}>Generate Content</button>
-    //     </div>
-    //     <div className="">{result}</div>
-    //   </div>
-    // </div>
-    <div className="">
-      <h1>Symptom analyser</h1>
+    <div className="pt-25 pb-15 mx-5 md:mx-20 md:pt-40 md:pb-30 flex flex-col gap-7">
+      <div className="flex flex-col gap-3">
+        <h1 className="text-3xl font-bold text-black dark:text-white ">Symptom analyser</h1>
+        <p className=""> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Quidem officia suscipit cupiditate est sint illum veniam magni 
+         enim tempora nisi odio deserunt, labore corrupti quae praesentium, cumque
+          repellat expedita iste. </p>
+      </div>
+      <div className="flex flex-col gap-5">
+        <ul className="flex flex-wrap justify-start gap-5">
+        {symptoms.map((symptom) => (
+              <li key={symptom} className="flex flex-row items-center gap-2">
+                <input type="checkbox" className="" id={symptom} onChange={() => toggleSymptom(symptom)} />
+                <label className="" htmlFor={symptom}>{symptom}</label>
+              </li>
+        ))}
+        </ul>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-fit ">Generate content</button>
+      </div>
+      <div className="bg-[#1c2136] border-slate-700 border rounded-md h-30">
+        {result}
+      </div>
     </div>
   );
 };
