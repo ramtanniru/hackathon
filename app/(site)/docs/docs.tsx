@@ -13,7 +13,7 @@ const Doc = ({ doctor }) => {
   
       <div className='flex flex-col gap-3'>
 
-        <h4 className='head m-0'>
+        <h4 className='text-xl font-bold m-0'>
           {doctor.name}
         </h4>
         <div className='flex flex-row justify-between items-center gap-3'>

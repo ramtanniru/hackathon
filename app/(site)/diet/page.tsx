@@ -45,7 +45,7 @@ const Diet = () => {
     setFormData({ ...formData, [name]: value });
   };
 const MODEL_NAME = "gemini-pro";
-const API_KEY = "AIzaSyBA5rtNNVSNures_Gwpe3ZBq4Bq44O6Mbw";
+const API_KEY = "AIzaSyDcYKeMNWinAMk4GHGaN-WuhLsDMltRHds";
 
   const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
@@ -219,7 +219,7 @@ const API_KEY = "AIzaSyBA5rtNNVSNures_Gwpe3ZBq4Bq44O6Mbw";
               </form>
             </div>
         </div>
-        <div className="bg-[#1c2136] border-slate-700 border rounded-md w-full" >{dietPlan}</div>
+        <div className="bg-[#1c2136] border-slate-700 border rounded-md w-full p-3" >{dietPlan}</div>
     </div>
   );
 };
