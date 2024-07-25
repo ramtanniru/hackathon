@@ -1,4 +1,4 @@
-import Signup from "@/components/Auth/Signup";
+import ContactUs from "@/components/Auth/ContactUs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Register() {
   return (
     <>
-      <Signup />
+      <ContactUs />
     </>
   );
 }

@@ -7,14 +7,8 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/",
   },
-  // {
-  //   id: 2,
-  //   title: "Features",
-  //   newTab: false,
-  //   path: "/#features",
-  // },
   {
-    id: 2.1,
+    id: 2,
     title: "Chatbot",
     newTab: false,
     path: "/chatbot",

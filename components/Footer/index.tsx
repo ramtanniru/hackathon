@@ -16,7 +16,6 @@ const Footer = () => {
                     opacity: 0,
                     y: -20,
                   },
-
                   visible: {
                     opacity: 1,
                     y: 0,
@@ -266,24 +265,6 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              {/* <ul className="flex items-center gap-8">
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    English
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    Support
-                  </a>
-                </li>
-                
-              </ul> */}
               <p>MediBot pvt ltd</p>
             </motion.div>
 

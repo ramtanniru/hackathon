@@ -47,42 +47,50 @@ const DocsPage = () => {
         {
             name: 'Ram',
             spec: 'Orthopedic',
-            img: '/images/docs/8.jpg',// Update the image paths
+            img: '/images/docs/8.jpg',
+            phone:9182688796,
         },
         {
             name: 'Kadambini',
             spec: 'Neurologist',
             img: '/images/docs/1.jpg',
+            phone:9182688796,
         },
         {
             name: 'Jemison',
             spec: 'Pediatrician',
             img: '/images/docs/2.jpg',
+            phone:9182688796,
         },
         {
             name: 'Roberta',
             spec: 'Physician',
             img: '/images/docs/3.jpg',
+            phone:9182688796,
         },
         {
             name: 'Samu',
             spec: 'Paramedic',
             img: '/images/docs/4.jpg',
+            phone:9182688796,
         },
         {
             name: 'Tafadzwa',
             spec: 'Surgeon',
             img: '/images/docs/5.jpg',
+            phone:9182688796,
         },
         {
             name: 'Capricia',
             spec: 'ENT',
             img: '/images/docs/6.jpg',
+            phone:9182688796,
         },
         {
             name: 'Vlasis',
             spec: 'Nurse',
             img: '/images/docs/7.jpg',
+            phone:9182688796,
         },
     ];
 
